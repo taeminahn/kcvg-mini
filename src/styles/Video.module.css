@@ -1,0 +1,36 @@
+.box {
+    width: calc((100% - 3rem) / 4);
+}
+.box:nth-of-type(4n+0){
+    margin-right: 0;
+}
+.content {
+    position: relative;
+    padding: 64.09% 0 0 0;
+}
+.thumbnail {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.videoContent {
+    position: relative;
+    padding: 56.35% 0 0 0;
+}
+.videoContent .vp-center{
+    display: block;
+}
+.videoContent iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.videoInfo {
+
+}
